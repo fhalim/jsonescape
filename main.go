@@ -8,6 +8,9 @@ import (
 	"os"
 )
 
+/**
+Quick throwaway script to escape JSON from stdin to stdout
+*/
 func main() {
 	infile := os.Stdin
 	defer infile.Close()
